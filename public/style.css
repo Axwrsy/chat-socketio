@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    padding: 20px; 
+    background-color:  rgba(234, 245, 238, 0.884);
+}
+
+#mensagens {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#mensagens li {
+    margin-bottom: 10px;
+    background-color: rgb(67, 165, 96);
+    border-radius: 3px;
+    font-size: medium;
+    width: auto;
+    height: 20px;
+    color: rgb(4, 44, 20);
+    font-weight: bolder;
+    
+}
+
+.container{
+    background: rgba(192, 231, 209, 0.884);
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.send{
+    background-color: rgba(20, 65, 39, 0.884);
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px; /* espaço entre input e botão */
+}
+#input{
+   
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}
+
+#btn{
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+
+.mensagem-esquerda {
+
+    background-color: #f7f5f5;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+    text-align: left;
+    align-self: flex-start; /* mensagem à esquerda */
+    color: #000;
+}
+
+
+
+.mensagem-direita {
+  background-color: #154202;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 70%;
+    text-align: right;
+    align-self: flex-end; /* mensagem à direita */
+    color: white;
+}

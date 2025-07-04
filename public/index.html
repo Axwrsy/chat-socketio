@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>chat </title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <h2>Chat</h2>
+  <div class="container">
+  <ul id="mensagens"></ul>
+  
+
+</div>
+<form id="form" class="send">
+    <input id="input" autocomplete="off" placeholder="digite sua mensagem" />
+    <button id="btn">enviar</button>
+</form>
+</div>
+
+
+  <!--incluir a biblioteca cliente do Socket.IO-->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
