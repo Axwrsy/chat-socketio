@@ -37,11 +37,8 @@ npm install
 
 node server.js
 
-http://localhost:3000
+http://localhost:5000
 
-Se estiver em outra máquina da rede local, use o IP local da máquina que está executando o servidor:
-
-http://192.168.0.0:3000
 
 
 
